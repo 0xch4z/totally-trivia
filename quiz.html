@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Totally Trivia Quiz</title>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" />
+  <link rel="stylesheet" href="assets/css/quiz.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div id="wrapper">
+    <nav>
+      <div id="nav-wrapper">
+        <a href="#" class="brand-logo">Totally Trivia</a>
+        <span id="timer-container" class="right">
+          <i id="timer-icon" class="medium material-icons">access_alarm</i>
+          <span id="timer"></span>
+        </span>
+      </div>
+    </nav>
+    <div id="quiz">
+      <h3 id="prompt"></h3>
+      <div id="answers">
+        <a class="waves-effect waves-light btn-large quiz-answer" index="0"></a>
+        <a class="waves-effect waves-light btn-large quiz-answer" index="1"></a>
+        <a class="waves-effect waves-light btn-large quiz-answer" index="2"></a>
+        <a class="waves-effect waves-light btn-large quiz-answer" index="3"></a>
+      </div>
+    </div>
+    <footer>
+      <p>2017 &copy; Charles Kenney</p>
+    </footer>
+  </div>
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="assets/js/quiz.js"></script>
+</body>
+</html>

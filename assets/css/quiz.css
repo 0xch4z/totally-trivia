@@ -1,0 +1,49 @@
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#quiz {
+  flex-grow: 1;
+  width: 60%;
+  text-align: center;
+}
+
+#prompt {
+  margin-bottom: 50px;
+}
+
+nav {
+  padding: 0 50px;
+}
+
+#timer-container {
+  height: 75px;
+}
+
+#timer-icon {
+  margin-top: 10px;
+  display: inline;
+}
+
+#timer {
+  line-height: 75px;
+  font-size: 1.4em;
+}
+
+.quiz-answer {
+  text-transform: none;
+}
+
+#footer {
+
+}
+
+.quiz-answer {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+}
