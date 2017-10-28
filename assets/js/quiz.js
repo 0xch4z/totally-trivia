@@ -22,7 +22,7 @@ const questions = [
       '0(n log\u2082 n)',
       'O(1)'
     ],
-    0,
+    0
   ),
   new Question(
     'Traversing a linked list falls under which of the following time complexities?',
