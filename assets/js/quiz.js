@@ -95,7 +95,7 @@ const questions = [
     3
   ),
   new Question(
-    'How would one go about comparing to objects in JavaScript for equality?',
+    'How would one go about comparing two objects in JavaScript for equality?',
     [
       'Simply use the <code>===</code> operator.',
       'Sort each key on the objects and compare their key/value pairs one by one.',
